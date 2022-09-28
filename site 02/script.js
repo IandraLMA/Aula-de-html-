@@ -19,30 +19,28 @@ else {
 sexo="M";
 switch(sexo){
     case "M":
-    frase="Masculino";
-    break;
-    case "F":
-    frase="Feminino";
-    break;
-    default:
+        frase="Masculino";
         break;
-
-        var numero=0;
-        while (numero<20){
-            alert(numero);
-            numero=numero +1;
-        }
-
+    case "F":
+        frase="Feminino";
+        break;
+    default:
+        break;   
 }
-for (var i=0; i<20; i++){
-    //alert(1);
+var numero=0;
+while (numero<20){
+    alert(numero);
+    numero=numero +1;
 }
-var nome1="Elias";
-var nome2="José";
-var nome3="Filipe";
+            for (var i=0; i<20; i++){
+                //alert(1);
+    }
+    var nome1="Elias";
+    var nome2="José";
+    var nome3="Filipe";
 
-var nomes= ["Elias", "José", "Filipe"];
-alert (nomes[0]+" " [2]);
-for (var i=0; i< nomes.length; i++){
-    alert(nomes[i]); 
-}
+    var nomes= ["Elias", "José", "Filipe"];
+    alert (nomes[0]+" " [2]);
+    for (var i=0; i< nomes.length; i++){
+        alert(nomes[i]); 
+    }
