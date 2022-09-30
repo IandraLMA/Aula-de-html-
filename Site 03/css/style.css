@@ -221,8 +221,6 @@ nav a.btn_destaque {
     }
 }
 .modal{
-    flex
-    box-shadow: ;
     display: none;
     position: fixed;
     width: 400px;
