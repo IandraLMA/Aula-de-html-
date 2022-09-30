@@ -99,8 +99,6 @@ if( document.forms["form_contato"] != undefined ){
 }
 
 
-
-/* funções*/
 function ValidarEmail(valorEmail){
     if(
         valorEmail != "" &&
@@ -119,5 +117,3 @@ function NaoVazio(texto){
         return false;
     }
 }
-var momo={"Array"};
-momo.
