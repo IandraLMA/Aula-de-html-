@@ -13,9 +13,13 @@
             <a href="#">X</a>
             <h2>Ofertas de 10%</h2>
             <p>
-                <form>
+                <form name="modal_form" method="get">
                     Digite o seu email e ganhe 10% de desconto em qualquer compra:
-                    <input type="text" name="email"/>
+                    <br/>
+                    <br/>
+                    <input type="text" name="email" placeholder="email " autocomplete="off"/>
+                    <br/>
+                    <span class="nao_valido">E-mail inválido </span>
                     <br/>
                     <br/>
                     <input type="submit" value="enviar"
