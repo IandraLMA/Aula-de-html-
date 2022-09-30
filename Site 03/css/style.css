@@ -221,6 +221,8 @@ nav a.btn_destaque {
     }
 }
 .modal{
+    flex
+    box-shadow: ;
     display: none;
     position: fixed;
     width: 400px;
@@ -231,6 +233,7 @@ nav a.btn_destaque {
     left: 50%;
     margin-left: -200px;
     padding: 20px;
+    border-radius: 4px;
 }
 .modal input [type=text]{
     width: 95%;
@@ -241,4 +244,11 @@ nav a.btn_destaque {
     font-size: 24px;
     text-decoration: none;
     color: black;
+}
+span.nao_valido{
+    color:red;
+    display: none;
+}
+input.nao_valido{
+    border-bottom: 1px solid red !important;
 }
