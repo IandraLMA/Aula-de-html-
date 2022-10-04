@@ -36,3 +36,19 @@ body .container-body {
 code {
   font-size: 80%;
 }
+
+.label {
+  font-size: 25px;
+  margin-top: 5px;
+}
+
+@media (min-width:768px) {
+  .navbar-expand-md .navbar-nav .nav-link {
+    padding-right: var(--bs-navbar-nav-link-padding-x);
+    padding-left: var(--bs-navbar-nav-link-padding-x);
+    font-size: 12px;
+
+  }
+}
+
+/*tablet */
